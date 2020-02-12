@@ -12,4 +12,4 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_TOKEN }}
         dockerfile: Dockerfile
-        tags: "latest,bionic,1.41-bionic, 1-bionic"
+        tags: "ubuntu,bionic,1.41-bionic, 1-bionic"
