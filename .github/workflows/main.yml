@@ -12,4 +12,4 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_TOKEN }}
         dockerfile: Dockerfile
-        tags: "latest,ubuntu,eoan,1.41-eoan, 1-eoan"
+        tags: "focal,1.41-focal, 1-focal"
