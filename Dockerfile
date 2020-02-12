@@ -1,4 +1,4 @@
-FROM buildpack-deps:bionic
+FROM buildpack-deps:eoan
 
 # based on https://github.com/rust-lang/docker-rust/blob/76921dd61d80c4e8107b858d26bf5e52c4c09816/1.41.0/buster/Dockerfile
 
